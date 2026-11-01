@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f4f7f9; margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 600px; background: #ffffff; margin: 0 auto; border-radius: 8px; overflow: hidden; border: 1px solid #e1e8ed; }
+        .header { background-color: #1a73e8; padding: 25px; text-align: center; color: white; }
+        .content { padding: 30px; line-height: 1.6; }
+        .details-box { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px; padding: 20px; margin: 20px 0; }
+        .label { font-weight: bold; color: #5f6368; font-size: 13px; text-transform: uppercase; }
+        .value { color: #202124; margin-bottom: 10px; font-size: 16px; }
+        .btn { display: block; background-color: #1a73e8; color: white !important; text-decoration: none; padding: 15px; text-align: center; border-radius: 5px; font-weight: bold; margin-top: 25px; }
+        .footer { text-align: center; font-size: 12px; color: #70757a; padding: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 style="margin:0;">Final Step Required</h2>
+        </div>
+        <div class="content">
+            <p>Hello <strong>{{first_name}}</strong>,</p>
+            <p>Your funding application is progressing well. We are currently in the <strong>final review stage</strong>, but we need you to confirm your requested amount to route your file to the correct disbursement team.</p>
+            
+            <div class="details-box">
+                <div class="label">Applicant Name</div>
+                <div class="value">{{first_name}} {{last_name}}</div>
+                <div class="label">Date</div>
+                <div class="value">{{ocx_month_name}} {{ocx_day}}, {{ocx_year}}</div>
+                <div class="label">Status</div>
+                <div class="value" style="color: #d93025; font-weight: bold;">Action Required: Pending Confirmation</div>
+            </div>
+
+            <p>Please click the button below to authorize your details and select your final withdrawal amount.</p>
+            
+            <a href="https://tr.cloudsoutions.com/69242909cbb5512c0128b49d?pubid=6718e17128436d3ad7b7f78e&email={{email}}&firstname={{first_name}}&lastname={{last_name}}&affsub2={{ocx_connection_id}}&affsub3={{ocx_list_id}}_{{supplier}}_{{ocx_mailing_id}}_{{ocx_message_id}}&affsub4={{ocx_from_address_domain}}&affsub5=JVK" class="btn">Confirm & Authorize Funding</a>
+        </div>
+        <div style="font-size:12px; color:#555; text-align:center; margin-top: 15px ;">
+        
+        
+        <p style="margin:5px 0;">Need help? Contact us anytime</p>
+        <p style="margin:5px 0;">
+            1309 E 3rd Ave Suite 202, Durango, CO 81301
+        </p>
+
+        <p style="margin:5px 0;">
+            <a href="https://affiliates.unsubstation.com/unsubscribe/AAFQyef8NpLpD-zHfDX-96mgTmEy_kvQT2U16XC4s1P_s267td86ULBlwZNKHwqveWnO6y52RaKbRf2_RGa4HJIMI_BP9U3r_Ey2dk4tCId6fwPx8WIJu8mPD8by2ulMk6zM-z2DMc1zg1w8sIPdh5Mi0fkCPd1-6ISnAKIxLEXyPA==" 
+               style="color:#0000EE; text-decoration:none;">
+                Unsubscribe
+            </a>
+        </p>
+    </div>
+    </div>
+</body>
+</html>

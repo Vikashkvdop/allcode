@@ -1,0 +1,24 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+    border: 2px solid black;
+   
+
+}
+.box:hover{
+    background-color: burlywood;
+    transition: 3s; 
+    transform:  translateX(500px)  ;
+    transition: all 1s ease-out 3s;
+    transition-timing-function: cubic-bezier(0.03, 0.95, 0.68, 0.33);
+   
+}
+.box{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border: 2px solid rebeccapurple;
+    background-color: yellowgreen;
+    
+}

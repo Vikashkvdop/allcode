@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: #f5f5f5; padding: 40px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 480px; background-color: #ffffff; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+        <tr>
+            <td style="background-color: #f8f9fa; padding: 12px 25px; border-bottom: 1px solid #eeeeee; border-radius: 4px 4px 0 0;">
+                <table width="100%">
+                    <tr>
+                        <td style="font-size: 11px; color: #666666; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">Status: Awaiting Review</td>
+                        <td style="text-align: right; font-size: 11px; color: #666666; font-weight: bold;">DATE: {{ocx_day}}{{ocx_month_name}}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 40px 35px;">
+                <h1 style="font-size: 20px; color: #111111; margin: 0 0 20px 0; font-weight: 600;">Final Review Needed, {{first_name}}.</h1>
+                
+                <p style="font-size: 15px; line-height: 1.6; color: #444444; margin: 0 0 25px 0;">
+                    Your application has been successfully updated in our system. We have completed the initial verification of your file, and we are now moving your request forward for final processing.
+                </p>
+
+                <div style="border: 2px solid #f0f0f0; border-radius: 8px; padding: 25px; margin-bottom: 30px; background: linear-gradient(to bottom, #ffffff, #fafafa);">
+                    <table width="100%" style="font-size: 14px; color: #333333;">
+                        <tr>
+                            <td style="padding-bottom: 12px; color: #888888;">Registered Name</td>
+                            <td style="padding-bottom: 12px; text-align: right; font-weight: 600;">{{first_name}} {{last_name}}</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 12px; color: #888888;">Reference Email</td>
+                            <td style="padding-bottom: 12px; text-align: right; font-weight: 600;">{{email}}</td>
+                        </tr>
+                        <tr>
+                            <td style="border-top: 1px dashed #dddddd; padding-top: 15px; color: #888888; font-weight: bold;">Funding Stage</td>
+                            <td style="border-top: 1px dashed #dddddd; padding-top: 15px; text-align: right; color: #0066cc; font-weight: bold;">90% COMPLETE</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <p style="font-size: 14px; color: #666666; text-align: center; margin-bottom: 25px;">
+                    Would you like to review your information or make final adjustments before we release the funds?
+                </p>
+
+                <div style="text-align: center;">
+                    <a href="#" style="background-color: #0066cc; color: #ffffff; text-decoration: none; padding: 15px 45px; border-radius: 5px; font-weight: bold; font-size: 16px; display: inline-block;">Finalize & Proceed</a>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 20px 35px 40px 35px; text-align: center;">
+                <div style="font-size: 12px; color: #999999; line-height: 1.5;">
+                    <strong>Cash Spark Finance Assist</strong><br>
+                    This secure notification was sent to {{email}} on {{ocx_month_name}} {{ocx_day}}, {{ocx_year}}.
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

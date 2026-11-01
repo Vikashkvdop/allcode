@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>hello</title>
+    
+    <style>
+        
+
+    
+
+*{
+  margin:0;
+  padding:0;
+  font-family:verdana;
+}
+
+
+.y1{position:absolute;
+width:900px;
+height:800px;
+top:100px;
+left:100px;
+}
+
+#abc{
+  width:100%;
+  height:100%;
+  background-image: url(img2.jpg);
+  background-size: cover;
+}
+.x{position:absolute;
+background-color:gray;
+box-shadow:3px 5px 8px 10px white;
+float:left;
+width:900px;
+height:270px;
+top:200px;
+left:10px;
+opacity:0.4;}
+
+.y{position:absolute;
+width:800px;
+height:100px;
+top:10px;
+left:40px;}
+
+nav{
+  width: 100%;
+  height: 50px;
+ 
+  line-height: 50px;
+}
+nav ul{
+  float: right;
+  
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#088;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 50px;
+}
+.c{
+  color:#fff;
+  font-weight:bold; font-family:cursive ;
+  margin-top: 100px;  font-size:30px;text-shadow:black;
+}
+
+
+
+ 
+
+
+.fc1{
+    
+     margin-top:10px;
+     font-size:50px;
+     float:left;
+    
+     font-weight: bold;
+    color:white;
+    font-family:cursive ;
+}
+.b{
+    margin-top:100px;
+    font-size:30px;
+     font-weight: bold;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+
+.n {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #111;
+    border: none;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.n::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 10px;
+    background: rgba(0, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5),
+                0 0 30px rgba(0, 255, 255, 0.4),
+                0 0 40px rgba(0, 255, 255, 0.3),
+                0 0 50px rgba(0, 255, 255, 0.2),
+                0 0 60px rgba(0, 255, 255, 0.1);
+    transition: box-shadow 0.3s ease;
+    z-index: -1;
+}
+
+.n:hover {
+    transform: scale(1.1);
+}
+
+.n:hover::before {
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5),
+                0 0 40px rgba(0, 255, 255, 0.4),
+                0 0 50px rgba(0, 255, 255, 0.3),
+                0 0 60px rgba(0, 255, 255, 0.2),
+                0 0 70px rgba(0, 255, 255, 0.1);
+}
+
+.fc{
+  
+     margin-top:200px;
+    color:white;
+    font-family:cursive ;
+}
+
+    
+    </style>
+</head>
+<body>
+<div id="abc">
+    <nav>
+       
+        <ul>
+           
+            <li><a href="#">LOGO</a></li>
+            
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Airways</a></li>
+            <li><a href="#">Book Tickets</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class=y1> 
+    <span class="fc1">SUMMER</span>  <span class="b">SEASON</span>
+    <p class="n">Build your next holiday trip</p>
+
+
+<div class="x"></div>
+<div class="y">
+  <p class="fc">Plan a long summer holiday, away from the scorching heat and city bustle, and visit the places in North India. Spending time in the lofty Himalayas, witnessing the lush green valleys, and indulging in adventurous water sports will make your summer holidays in North India memorable. Stay in peaceful hill stations or choose to explore the famous tourist places; the choice is yours.
+    Misty mountains and beautiful valleys make Munnar a dream destination for tourists. Hence, tourists look for suitable Munnar tour packages for a memorable vacation.
+
+</p>
+<button class="n">Get in Touch</button>
+</div>
+
+
+</div>
+
+
+</body>
+</html>

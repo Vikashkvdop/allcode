@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking in on your profile</title>
+</head>
+<body style="margin: 0; padding: 30px 20px; background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1f2937; font-size: 16px;">
+    <div style="max-width: 500px; margin: auto;">
+        
+        <p style="margin-top: 0;">Hi {{first_name}},</p>
+        
+        <p style="line-height: 1.6;">I saw that you recently submitted your information to us. I wanted to personally reach out and let you know that your file is ready for the next step.</p>
+        
+        <p style="line-height: 1.6;">Before I can activate your dashboard, I just need you to confirm that the contact details below are accurate:</p>
+        
+        <ul style="line-height: 1.8; color: #4b5563; background-color: #f3f4f6; padding: 20px 20px 20px 40px; border-radius: 8px;">
+            <li><strong>Name:</strong> {{first_name}} {{last_name}}</li>
+            <li><strong>Email:</strong> {{email}}</li>
+        </ul>
+        
+        <p style="line-height: 1.6; margin-top: 25px;">
+            If everything looks correct, please <a href="#" style="color: #2563eb; font-weight: 600; text-decoration: none; border-bottom: 2px solid #bfdbfe;">click here to verify your profile</a> so we can proceed.
+        </p>
+        
+        <p style="line-height: 1.6; margin-top: 30px;">
+            Best regards,<br>
+            <strong>The Support Team</strong>
+        </p>
+
+        <div style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #e5e7eb; font-size: 12px; color: #9ca3af;">
+            <p style="margin: 5px 0;">This message was sent to {{email}}.</p>
+            <p style="margin: 5px 0;">1309 Coffeen Avenue Ste 1200, Sheridan County, WY 82801</p>
+            <p style="margin: 15px 0 0 0;"><a href="{{unsubscribe_link}}" style="color: #9ca3af; text-decoration: underline;">Unsubscribe</a></p>
+        </div>
+
+    </div>
+</body>
+</html>

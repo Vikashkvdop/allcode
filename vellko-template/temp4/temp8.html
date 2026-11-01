@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: #f0f4f8; padding: 40px 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 500px; background-color: #ffffff; border: 1px solid #d1d9e6; border-radius: 8px;">
+        <tr>
+            <td style="padding: 20px 35px; background-color: #fcfdfe; border-radius: 8px 8px 0 0; border-bottom: 1px solid #f0f4f8;">
+                <table width="100%">
+                    <tr>
+                        <td style="font-size: 14px; font-weight: bold; color: #2c3e50;">APPLICATION</td>
+                        <td style="text-align: right; font-size: 12px; color: #95a5a6;">{{ocx_month_name}} {{ocx_day}}, {{ocx_year}}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        <tr>
+            <td style="padding: 40px 35px;">
+                <div style="margin-bottom: 20px;">
+                    <span style="background-color: #e3f2fd; color: #1976d2; padding: 5px 12px; border-radius: 4px; font-size: 11px; font-weight: bold; letter-spacing: 0.5px;">OFFICIAL NOTICE</span>
+                </div>
+                
+                <h2 style="color: #2c3e50; font-size: 22px; margin: 0 0 15px 0;">Congrats, {{first_name}}!</h2>
+                
+                <p style="color: #5d6d7e; font-size: 15px; line-height: 1.6; margin-bottom: 25px;">
+                    Your place has been reserved after a successful review of your initial application. We are pleased to inform you that your request has reached the <strong>final stage confirmation.</strong>
+                </p>
+
+                <table width="100%" style="margin-bottom: 30px; border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 12px 0; border-bottom: 1px solid #f0f4f8; color: #7f8c8d; font-size: 14px;">Reference Email:</td>
+                        <td style="padding: 12px 0; border-bottom: 1px solid #f0f4f8; text-align: right; font-weight: 600; color: #2c3e50;">{{email}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px 0; border-bottom: 1px solid #f0f4f8; color: #7f8c8d; font-size: 14px;">Current Progress:</td>
+                        <td style="padding: 12px 0; border-bottom: 1px solid #f0f4f8; text-align: right; font-weight: bold; color: #27ae60;">90% COMPLETE</td>
+                    </tr>
+                </table>
+
+                <p style="font-size: 14px; color: #7f8c8d; text-align: center; margin-bottom: 25px;">
+                    Accurate information helps us process your funds more efficiently. Please click below to finalize.
+                </p>
+
+                <div style="text-align: center;">
+                    <a href="#" style="background-color: #1976d2; color: #ffffff; text-decoration: none; padding: 18px 50px; border-radius: 4px; font-weight: bold; font-size: 16px; display: inline-block;">Finalize & Proceed</a>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 0 35px 40px 35px; text-align: center; font-size: 11px; color: #bdc3c7;">
+                ID: APP-{{ocx_day}}{{ocx_month_name}} | Sent to {{email}}<br>
+                Cash Spark Verification Team
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.pro{
+    display: inline-block;
+    width: 2000px;
+    height: 1000px;
+    background-color: brown;
+    
+   
+}
+.v{
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: blue;
+    margin: 10px;
+    position: relative;
+    left: 200px;
+
+}
+.k{
+    height: 100px;
+    width: 150px;
+    border: 2px solid black ;
+    margin: 10px;
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+    top: 250px;
+
+}
+.verma{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    position: fixed;
+}
+.p{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    position: sticky;
+    top: 100px;
+    left: 200px;
+}

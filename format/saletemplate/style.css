@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fffaf0;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  background:
+    url("https://images.unsplash.com/photo-1543589077-47d81606c1bf") center/cover no-repeat,
+    #c6002b;
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.small-text {
+  font-size: 14px;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.script {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.sale {
+  font-size: 72px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  margin: 10px 0;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.divider span {
+  width: 60px;
+  height: 1px;
+  background: #fff;
+}
+
+.discount {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* CONTENT */
+.content {
+  padding: 70px 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.content h2 {
+  font-size: 26px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.ornament {
+  color: #c6002b;
+  margin: 15px 0;
+}
+
+.content p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* SANTA */
+.santa img {
+  width: 180px;
+  max-width: 100%;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .script {
+    font-size: 38px;
+  }
+
+  .sale {
+    font-size: 56px;
+  }
+
+  .discount {
+    font-size: 16px;
+  }
+}

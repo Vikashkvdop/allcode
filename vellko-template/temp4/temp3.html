@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: #f4f7f6; padding: 40px 15px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 500px; background-color: #ffffff; border-radius: 12px; border: 1px solid #e0e6e9; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+        <tr>
+            <td style="background-color: #0052cc; height: 6px; border-radius: 12px 12px 0 0;"></td>
+        </tr>
+        
+        <tr>
+            <td style="padding: 35px 30px;">
+                <div style="font-size: 11px; font-weight: bold; color: #0052cc; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 15px;">
+                    Finance Assist | Application Portal
+                </div>
+
+                <h2 style="font-size: 22px; margin: 0 0 15px 0; color: #172b4d;">Action Required: Confirm Amount</h2>
+                
+                <p style="font-size: 15px; line-height: 1.6; color: #505f79; margin-bottom: 25px;">
+                    Hello {{first_name}},<br><br>
+                    Your funding request is progressing well. We have successfully processed your initial application and it has moved to the <strong>Final Review</strong> stage. 
+                </p>
+
+                <table width="100%" style="margin-bottom: 25px;">
+                    <tr>
+                        <td width="33%" style="border-bottom: 3px solid #0052cc; padding-bottom: 8px; font-size: 10px; color: #0052cc; font-weight: bold;">1. RECEIVED</td>
+                        <td width="33%" style="border-bottom: 3px solid #0052cc; padding-bottom: 8px; font-size: 10px; color: #0052cc; font-weight: bold;">2. REVIEWED</td>
+                        <td width="33%" style="border-bottom: 3px solid #dfe1e6; padding-bottom: 8px; font-size: 10px; color: #a5adba; font-weight: bold;">3. FUNDED</td>
+                    </tr>
+                </table>
+
+                <div style="background-color: #fafbfc; border: 1px solid #ebecf0; border-radius: 8px; padding: 20px; margin-bottom: 25px;">
+                    <table width="100%" style="font-size: 14px; color: #172b4d;">
+                        <tr>
+                            <td style="padding: 5px 0; color: #6b778c;">Applicant:</td>
+                            <td style="padding: 5px 0; text-align: right; font-weight: bold;">{{first_name}} {{last_name}}</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 5px 0; color: #6b778c;">Review Date:</td>
+                            <td style="padding: 5px 0; text-align: right;">{{ocx_month_name}} {{ocx_day}}, {{ocx_year}}</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px 0 0 0; color: #6b778c; font-weight: bold;">Requested Amount:</td>
+                            <td style="padding: 15px 0 0 0; text-align: right; color: #00875a; font-weight: bold; text-decoration: underline;">AWAITING CONFIRMATION</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <p style="font-size: 14px; line-height: 1.5; color: #505f79; margin-bottom: 30px;">
+                    To finalize your transfer, kindly confirm the exact amount you wish to withdraw using the secure authentication link below:
+                </p>
+
+                <div style="text-align: center;">
+                    <a href="#" style="background-color: #0052cc; color: #ffffff; text-decoration: none; padding: 16px 40px; border-radius: 6px; font-weight: bold; font-size: 16px; display: inline-block;">Finalize & Proceed</a>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 0 30px 35px 30px; text-align: center;">
+                <p style="font-size: 12px; color: #97a0af; margin: 0;">
+                    Cash Spark Automated Notification sent to {{email}}.<br>
+                    You are currently 90% through your request journey.
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

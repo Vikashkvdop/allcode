@@ -1,0 +1,43 @@
+.container{
+    height: 600px;
+    height: 500px;
+    background-color: violet;
+    border: 2px solid black;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: bisque;
+    border: 2px solid red;
+    animation: vikash;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-direction: normal;
+    /* animation-fill-mode: ; */
+}
+/* @keyframes vikash {
+    from{
+        width: 212px;
+    }
+    to{
+        width: 500px;
+    }
+} */
+ @keyframes vikash {
+    0%{
+        width: 212px;
+        background-color: orange;
+
+    }
+    50%{
+        width: 40%;
+        background-color: white;
+    }
+    100%{
+        width: 70%;
+        background-color: green;
+    }
+ }

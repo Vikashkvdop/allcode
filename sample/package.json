@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "multer": "^2.0.2",
+    "stream": "^0.0.3"
+  }
+}

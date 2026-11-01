@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: #ffffff; padding: 30px 10px; font-family: Arial, sans-serif;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 450px; border: 2px solid #f1f1f1; border-radius: 8px;">
+        <tr>
+            <td style="padding: 40px;">
+                <h1 style="font-size: 24px; color: #000000; margin: 0 0 10px 0; letter-spacing: -1px;">Authentication Required</h1>
+                <p style="font-size: 16px; color: #666666; line-height: 1.5; margin-bottom: 30px;">
+                    Hello {{first_name}}, the loan process for your application is not yet complete. To expedite your funding result, kindly confirm your documents by reviewing the details below.
+                </p>
+
+                <div style="background-color: #000000; color: #ffffff; padding: 25px; border-radius: 4px; margin-bottom: 30px;">
+                    <table width="100%" style="font-size: 14px;">
+                        <tr>
+                            <td style="padding-bottom: 10px; color: #aaaaaa;">USER</td>
+                            <td style="padding-bottom: 10px; text-align: right;">{{first_name}} {{last_name}}</td>
+                        </tr>
+                        <tr>
+                            <td>AMOUNT</td>
+                            <td style="text-align: right; color: #00ff00; font-weight: bold;">SELECT HERE</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <a href="#" style="background-color: #eeeeee; color: #000000; text-decoration: none; padding: 15px; border-radius: 4px; font-weight: bold; display: block; text-align: center; font-size: 15px;">Authorize Here</a>
+                
+                <p style="font-size: 12px; color: #bbbbbb; text-align: center; margin-top: 30px;">
+                    Time: {{ocx_month_name}} {{ocx_day}}, {{ocx_year}} | Reference: #{{ocx_day}}CS
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

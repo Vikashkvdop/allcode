@@ -1,0 +1,26 @@
+.main{
+    height: 1000px;
+    width: 250vw;
+    background-color: yellowgreen;
+    display: inline-block;
+}
+.mydiv{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.mydiv1{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+.mydiv2{
+    position: fixed;
+    left: 200px;
+   
+}
+.mydiv3{
+    position: sticky;
+    
+    top: 300px;
+}

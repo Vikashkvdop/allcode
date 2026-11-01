@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Required</title>
+</head>
+<body style="margin: 0; padding: 30px 10px; background-color: #eef2f5; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #4a4a4a;">
+    <div style="max-width: 550px; background-color: #ffffff; margin: auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+        
+        <div style="padding: 40px 30px;">
+            <h2 style="color: #2b6777; margin-top: 0; text-align: center;">Next Steps for Your Profile</h2>
+            
+            <p style="font-size: 16px; line-height: 1.6;">Hello {{first_name}},</p>
+            <p style="font-size: 16px; line-height: 1.6;">Thank you for your interest. To move forward with your profile, we just need to confirm a few quick details.</p>
+            
+            <hr style="border: none; border-top: 1px solid #e1e1e1; margin: 25px 0;">
+            
+            <p style="font-size: 14px; color: #888888; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 1px;">Current Information on File:</p>
+            <p style="font-size: 16px; margin: 5px 0;"><strong>Name:</strong> {{first_name}} {{last_name}}</p>
+            <p style="font-size: 16px; margin: 5px 0;"><strong>Email:</strong> {{email}}</p>
+            
+            <hr style="border: none; border-top: 1px solid #e1e1e1; margin: 25px 0;">
+            
+            <p style="text-align: center; margin-top: 30px;">
+                <a href="#" style="background-color: #2b6777; color: #ffffff; padding: 14px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">Verify My Information</a>
+            </p>
+        </div>
+
+        <div style="text-align: center; padding: 25px; font-size: 12px; color: #999999; background-color: #fafafa; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;">
+            <p style="margin: 0 0 10px 0;">1309 Coffeen Avenue Ste 1200, Sheridan County, WY 82801</p>
+            <a href="{{unsubscribe_link}}" style="color: #2b6777; text-decoration: none;">Unsubscribe from these alerts</a>
+        </div>
+
+    </div>
+</body>
+</html>

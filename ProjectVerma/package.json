@@ -1,0 +1,18 @@
+{
+  "name": "verma_project",
+  "version": "1.0.0",
+  "description": "Tailwind",
+  "main": "index.js",
+  "scripts": {
+    
+    "start": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9",
+    "vite": "^6.2.0"
+  }
+}

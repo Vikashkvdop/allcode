@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="padding: 20px; font-family: -apple-system, system-ui, sans-serif; background-color: #ffffff;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 440px; border: 1.5px solid #f1f5f9; border-radius: 20px;">
+        <tr>
+            <td style="padding: 30px;">
+                <p style="font-size: 16px; color: #111827; margin: 0 0 10px 0; font-weight: 600;">Almost there, {{first_name}}.</p>
+                
+                <p style="font-size: 14px; line-height: 1.5; color: #64748b; margin: 0 0 25px 0;">
+                    Your funding papers are prepared and ready for your signature. Simply confirm the details below to finish your journey.
+                </p>
+
+                <table width="100%" style="margin-bottom: 25px; background-color: #fcfcfc; border-radius: 12px; border: 1px solid #f1f5f9;">
+                    <tr>
+                        <td style="padding: 15px; font-size: 13px; color: #1e293b;">
+                            <strong>User:</strong> {{first_name}} {{last_name}}<br>
+                            <strong>Status:</strong> Ready to Release
+                        </td>
+                        <td style="padding: 15px; text-align: right;">
+                            <a href="#" style="color: #2563eb; font-size: 13px; font-weight: bold; text-decoration: none;">EDIT →</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <a href="#" style="background-color: #2563eb; color: #ffffff; text-decoration: none; padding: 14px; border-radius: 10px; font-weight: bold; display: block; text-align: center; font-size: 15px;">Confirm & Finalize Now</a>
+                
+                <div style="text-align: center; margin-top: 20px;">
+                    <span style="font-size: 11px; color: #94a3b8; background-color: #f8fafc; padding: 4px 10px; border-radius: 4px;">ID: {{ocx_day}}-{{first_name|upper}}</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

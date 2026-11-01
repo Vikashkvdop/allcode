@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* POSTER */
+.poster {
+  background: linear-gradient(
+      rgba(255,255,255,0.85),
+      rgba(255,255,255,0.85)
+    ),
+    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4")
+    center/cover no-repeat;
+  width: 100%;
+  max-width: 520px;
+  padding: 30px 25px 40px;
+  text-align: center;
+  position: relative;
+}
+
+/* HEADER TEXT */
+.present {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+.title-main {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  color: #ff4d7a;
+  letter-spacing: 4px;
+}
+
+.title-script {
+  font-family: 'Great Vibes', cursive;
+  font-size: 52px;
+  color: #1a1919;
+  margin-top: -20px;
+}
+
+.title-day {
+  font-family: 'Great Vibes', cursive;
+  font-size: 42px;
+  color: #e91d1d;
+  margin-top: -10px;
+}
+
+/* DRINK IMAGE */
+.drink img {
+  width: 180px;
+  margin: 30px auto;
+  display: block;
+}
+
+/* INFO */
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.info div {
+  width: 50%;
+}
+
+.label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #ff4d7a;
+}
+
+.info h4 {
+  font-size: 24px;
+  color: #ff4d7a;
+  margin: 5px 0 10px;
+}
+
+.info ul {
+  list-style: none;
+}
+
+.info li {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 40px;
+  font-weight: bold;
+  color: #ff4d7a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  .title-main {
+    font-size: 48px;
+  }
+
+  .title-script {
+    font-size: 42px;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .info div {
+    width: 100%;
+  }
+}
